@@ -1,0 +1,355 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\IBM_ADMIN\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.7.5
+3 info using node@v4.4.5
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData marked-it
+20 silly mapToRegistry name marked-it
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry http://apimdev1136.hursley.ibm.com:55501/
+23 silly mapToRegistry uri http://apimdev1136.hursley.ibm.com:55501/marked-it
+24 silly fetchNamedPackageData wkhtmltopdf
+25 silly mapToRegistry name wkhtmltopdf
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry http://apimdev1136.hursley.ibm.com:55501/
+28 silly mapToRegistry uri http://apimdev1136.hursley.ibm.com:55501/wkhtmltopdf
+29 silly fetchNamedPackageData js-yaml
+30 silly mapToRegistry name js-yaml
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry http://apimdev1136.hursley.ibm.com:55501/
+33 silly mapToRegistry uri http://apimdev1136.hursley.ibm.com:55501/js-yaml
+34 silly fetchNamedPackageData htmlparser2
+35 silly mapToRegistry name htmlparser2
+36 silly mapToRegistry using default registry
+37 silly mapToRegistry registry http://apimdev1136.hursley.ibm.com:55501/
+38 silly mapToRegistry uri http://apimdev1136.hursley.ibm.com:55501/htmlparser2
+39 silly fetchNamedPackageData pretty-data
+40 silly mapToRegistry name pretty-data
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry http://apimdev1136.hursley.ibm.com:55501/
+43 silly mapToRegistry uri http://apimdev1136.hursley.ibm.com:55501/pretty-data
+44 silly fetchNamedPackageData js-beautify
+45 silly mapToRegistry name js-beautify
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry http://apimdev1136.hursley.ibm.com:55501/
+48 silly mapToRegistry uri http://apimdev1136.hursley.ibm.com:55501/js-beautify
+49 silly fetchNamedPackageData fs-extra
+50 silly mapToRegistry name fs-extra
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry http://apimdev1136.hursley.ibm.com:55501/
+53 silly mapToRegistry uri http://apimdev1136.hursley.ibm.com:55501/fs-extra
+54 verbose request uri http://apimdev1136.hursley.ibm.com:55501/marked-it
+55 verbose request no auth needed
+56 info attempt registry request try #1 at 12:43:54 PM
+57 verbose request id 1882b3ee7a67434e
+58 http request GET http://apimdev1136.hursley.ibm.com:55501/marked-it
+59 verbose request uri http://apimdev1136.hursley.ibm.com:55501/wkhtmltopdf
+60 verbose request no auth needed
+61 info attempt registry request try #1 at 12:43:54 PM
+62 http request GET http://apimdev1136.hursley.ibm.com:55501/wkhtmltopdf
+63 verbose request uri http://apimdev1136.hursley.ibm.com:55501/js-beautify
+64 verbose request no auth needed
+65 info attempt registry request try #1 at 12:43:54 PM
+66 http request GET http://apimdev1136.hursley.ibm.com:55501/js-beautify
+67 verbose request uri http://apimdev1136.hursley.ibm.com:55501/pretty-data
+68 verbose request no auth needed
+69 info attempt registry request try #1 at 12:43:54 PM
+70 http request GET http://apimdev1136.hursley.ibm.com:55501/pretty-data
+71 verbose request uri http://apimdev1136.hursley.ibm.com:55501/js-yaml
+72 verbose request no auth needed
+73 info attempt registry request try #1 at 12:43:54 PM
+74 verbose etag "94cff8b8d75e54dee469c373f9ed68ee"
+75 http request GET http://apimdev1136.hursley.ibm.com:55501/js-yaml
+76 verbose request uri http://apimdev1136.hursley.ibm.com:55501/htmlparser2
+77 verbose request no auth needed
+78 info attempt registry request try #1 at 12:43:54 PM
+79 verbose etag "a997f98ff5bba90f9aa22eb0cb839900"
+80 http request GET http://apimdev1136.hursley.ibm.com:55501/htmlparser2
+81 verbose request uri http://apimdev1136.hursley.ibm.com:55501/fs-extra
+82 verbose request no auth needed
+83 info attempt registry request try #1 at 12:43:54 PM
+84 verbose etag "2fdf0c49c027094ad3d682a26db2d3b0"
+85 http request GET http://apimdev1136.hursley.ibm.com:55501/fs-extra
+86 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 9.20.153.136:55501
+87 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 9.20.153.136:55501
+88 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 9.20.153.136:55501
+89 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 9.20.153.136:55501
+90 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 9.20.153.136:55501
+91 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 9.20.153.136:55501
+92 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 9.20.153.136:55501
+93 info attempt registry request try #2 at 12:44:05 PM
+94 http request GET http://apimdev1136.hursley.ibm.com:55501/marked-it
+95 info attempt registry request try #2 at 12:44:05 PM
+96 verbose etag "94cff8b8d75e54dee469c373f9ed68ee"
+97 http request GET http://apimdev1136.hursley.ibm.com:55501/js-yaml
+98 info attempt registry request try #2 at 12:44:05 PM
+99 http request GET http://apimdev1136.hursley.ibm.com:55501/js-beautify
+100 info attempt registry request try #2 at 12:44:05 PM
+101 verbose etag "a997f98ff5bba90f9aa22eb0cb839900"
+102 http request GET http://apimdev1136.hursley.ibm.com:55501/htmlparser2
+103 info attempt registry request try #2 at 12:44:05 PM
+104 http request GET http://apimdev1136.hursley.ibm.com:55501/wkhtmltopdf
+105 info attempt registry request try #2 at 12:44:05 PM
+106 http request GET http://apimdev1136.hursley.ibm.com:55501/pretty-data
+107 info attempt registry request try #2 at 12:44:05 PM
+108 verbose etag "2fdf0c49c027094ad3d682a26db2d3b0"
+109 http request GET http://apimdev1136.hursley.ibm.com:55501/fs-extra
+110 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 9.20.153.136:55501
+111 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 9.20.153.136:55501
+112 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 9.20.153.136:55501
+113 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 9.20.153.136:55501
+114 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 9.20.153.136:55501
+115 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 9.20.153.136:55501
+116 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 9.20.153.136:55501
+117 info attempt registry request try #3 at 12:45:06 PM
+118 http request GET http://apimdev1136.hursley.ibm.com:55501/marked-it
+119 info attempt registry request try #3 at 12:45:06 PM
+120 verbose etag "94cff8b8d75e54dee469c373f9ed68ee"
+121 http request GET http://apimdev1136.hursley.ibm.com:55501/js-yaml
+122 info attempt registry request try #3 at 12:45:06 PM
+123 http request GET http://apimdev1136.hursley.ibm.com:55501/js-beautify
+124 info attempt registry request try #3 at 12:45:06 PM
+125 http request GET http://apimdev1136.hursley.ibm.com:55501/wkhtmltopdf
+126 info attempt registry request try #3 at 12:45:06 PM
+127 verbose etag "a997f98ff5bba90f9aa22eb0cb839900"
+128 http request GET http://apimdev1136.hursley.ibm.com:55501/htmlparser2
+129 info attempt registry request try #3 at 12:45:07 PM
+130 http request GET http://apimdev1136.hursley.ibm.com:55501/pretty-data
+131 info attempt registry request try #3 at 12:45:07 PM
+132 verbose etag "2fdf0c49c027094ad3d682a26db2d3b0"
+133 http request GET http://apimdev1136.hursley.ibm.com:55501/fs-extra
+134 silly fetchPackageMetaData Error: connect ECONNREFUSED 9.20.153.136:55501
+134 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:870:11)
+134 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:893:20)
+134 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1061:14)
+134 silly fetchPackageMetaData  error for marked-it@0.0.2 { [Error: connect ECONNREFUSED 9.20.153.136:55501]
+134 silly fetchPackageMetaData   code: 'ECONNREFUSED',
+134 silly fetchPackageMetaData   errno: 'ECONNREFUSED',
+134 silly fetchPackageMetaData   syscall: 'connect',
+134 silly fetchPackageMetaData   address: '9.20.153.136',
+134 silly fetchPackageMetaData   port: 55501 }
+135 silly get cb [ 304, undefined ]
+136 verbose etag http://apimdev1136.hursley.ibm.com:55501/js-yaml from cache
+137 verbose get saving js-yaml to C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\apimdev1136.hursley.ibm.com_55501\js-yaml\.cache.json
+138 verbose correctMkdir C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+139 silly fetchPackageMetaData Error: connect ECONNREFUSED 9.20.153.136:55501
+139 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:870:11)
+139 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:893:20)
+139 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1061:14)
+139 silly fetchPackageMetaData  error for js-beautify@1.6.4 { [Error: connect ECONNREFUSED 9.20.153.136:55501]
+139 silly fetchPackageMetaData   code: 'ECONNREFUSED',
+139 silly fetchPackageMetaData   errno: 'ECONNREFUSED',
+139 silly fetchPackageMetaData   syscall: 'connect',
+139 silly fetchPackageMetaData   address: '9.20.153.136',
+139 silly fetchPackageMetaData   port: 55501 }
+140 silly resolveWithNewModule js-yaml@3.5.3 checking installable status
+141 silly cache add args [ 'js-yaml@3.5.3', null ]
+142 verbose cache add spec js-yaml@3.5.3
+143 silly cache add parsed spec Result {
+143 silly cache add   raw: 'js-yaml@3.5.3',
+143 silly cache add   scope: null,
+143 silly cache add   name: 'js-yaml',
+143 silly cache add   rawSpec: '3.5.3',
+143 silly cache add   spec: '3.5.3',
+143 silly cache add   type: 'version' }
+144 silly addNamed js-yaml@3.5.3
+145 verbose addNamed "3.5.3" is a plain semver version for js-yaml
+146 silly mapToRegistry name js-yaml
+147 silly mapToRegistry using default registry
+148 silly mapToRegistry registry http://apimdev1136.hursley.ibm.com:55501/
+149 silly mapToRegistry uri http://apimdev1136.hursley.ibm.com:55501/js-yaml
+150 verbose addNameVersion registry:http://apimdev1136.hursley.ibm.com:55501/js-yaml not in flight; fetching
+151 verbose get http://apimdev1136.hursley.ibm.com:55501/js-yaml not expired, no request
+152 silly mapToRegistry name js-yaml
+153 silly mapToRegistry using default registry
+154 silly mapToRegistry registry http://apimdev1136.hursley.ibm.com:55501/
+155 silly mapToRegistry uri http://apimdev1136.hursley.ibm.com:55501/js-yaml
+156 verbose addRemoteTarball http://apimdev1136.hursley.ibm.com:55501/js-yaml/-/js-yaml-3.5.3.tgz not in flight; adding
+157 verbose addRemoteTarball [ 'http://apimdev1136.hursley.ibm.com:55501/js-yaml/-/js-yaml-3.5.3.tgz',
+157 verbose addRemoteTarball   'e9ee6082b0657770e4346dfaf2a58c5992251f76' ]
+158 info retry fetch attempt 1 at 12:45:07 PM
+159 info attempt registry request try #1 at 12:45:07 PM
+160 http fetch GET http://apimdev1136.hursley.ibm.com:55501/js-yaml/-/js-yaml-3.5.3.tgz
+161 silly fetchPackageMetaData Error: connect ECONNREFUSED 9.20.153.136:55501
+161 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:870:11)
+161 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:893:20)
+161 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1061:14)
+161 silly fetchPackageMetaData  error for wkhtmltopdf@0.1.5 { [Error: connect ECONNREFUSED 9.20.153.136:55501]
+161 silly fetchPackageMetaData   code: 'ECONNREFUSED',
+161 silly fetchPackageMetaData   errno: 'ECONNREFUSED',
+161 silly fetchPackageMetaData   syscall: 'connect',
+161 silly fetchPackageMetaData   address: '9.20.153.136',
+161 silly fetchPackageMetaData   port: 55501 }
+162 silly get cb [ 304, undefined ]
+163 verbose etag http://apimdev1136.hursley.ibm.com:55501/htmlparser2 from cache
+164 verbose get saving htmlparser2 to C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\apimdev1136.hursley.ibm.com_55501\htmlparser2\.cache.json
+165 verbose correctMkdir C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+166 silly resolveWithNewModule htmlparser2@3.8.3 checking installable status
+167 silly cache add args [ 'htmlparser2@3.8.3', null ]
+168 verbose cache add spec htmlparser2@3.8.3
+169 silly cache add parsed spec Result {
+169 silly cache add   raw: 'htmlparser2@3.8.3',
+169 silly cache add   scope: null,
+169 silly cache add   name: 'htmlparser2',
+169 silly cache add   rawSpec: '3.8.3',
+169 silly cache add   spec: '3.8.3',
+169 silly cache add   type: 'version' }
+170 silly addNamed htmlparser2@3.8.3
+171 verbose addNamed "3.8.3" is a plain semver version for htmlparser2
+172 silly mapToRegistry name htmlparser2
+173 silly mapToRegistry using default registry
+174 silly mapToRegistry registry http://apimdev1136.hursley.ibm.com:55501/
+175 silly mapToRegistry uri http://apimdev1136.hursley.ibm.com:55501/htmlparser2
+176 verbose addNameVersion registry:http://apimdev1136.hursley.ibm.com:55501/htmlparser2 not in flight; fetching
+177 verbose get http://apimdev1136.hursley.ibm.com:55501/htmlparser2 not expired, no request
+178 silly fetchPackageMetaData Error: connect ECONNREFUSED 9.20.153.136:55501
+178 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:870:11)
+178 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:893:20)
+178 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1061:14)
+178 silly fetchPackageMetaData  error for pretty-data@0.40.0 { [Error: connect ECONNREFUSED 9.20.153.136:55501]
+178 silly fetchPackageMetaData   code: 'ECONNREFUSED',
+178 silly fetchPackageMetaData   errno: 'ECONNREFUSED',
+178 silly fetchPackageMetaData   syscall: 'connect',
+178 silly fetchPackageMetaData   address: '9.20.153.136',
+178 silly fetchPackageMetaData   port: 55501 }
+179 silly cache afterAdd htmlparser2@3.8.3
+180 verbose afterAdd C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\htmlparser2\3.8.3\package\package.json not in flight; writing
+181 verbose correctMkdir C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+182 verbose afterAdd C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\htmlparser2\3.8.3\package\package.json written
+183 silly get cb [ 304, undefined ]
+184 verbose etag http://apimdev1136.hursley.ibm.com:55501/fs-extra from cache
+185 verbose get saving fs-extra to C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\apimdev1136.hursley.ibm.com_55501\fs-extra\.cache.json
+186 verbose correctMkdir C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+187 silly resolveWithNewModule fs-extra@1.0.0 checking installable status
+188 silly cache add args [ 'fs-extra@1.0.0', null ]
+189 verbose cache add spec fs-extra@1.0.0
+190 silly cache add parsed spec Result {
+190 silly cache add   raw: 'fs-extra@1.0.0',
+190 silly cache add   scope: null,
+190 silly cache add   name: 'fs-extra',
+190 silly cache add   rawSpec: '1.0.0',
+190 silly cache add   spec: '1.0.0',
+190 silly cache add   type: 'version' }
+191 silly addNamed fs-extra@1.0.0
+192 verbose addNamed "1.0.0" is a plain semver version for fs-extra
+193 silly mapToRegistry name fs-extra
+194 silly mapToRegistry using default registry
+195 silly mapToRegistry registry http://apimdev1136.hursley.ibm.com:55501/
+196 silly mapToRegistry uri http://apimdev1136.hursley.ibm.com:55501/fs-extra
+197 verbose addNameVersion registry:http://apimdev1136.hursley.ibm.com:55501/fs-extra not in flight; fetching
+198 verbose get http://apimdev1136.hursley.ibm.com:55501/fs-extra not expired, no request
+199 silly mapToRegistry name fs-extra
+200 silly mapToRegistry using default registry
+201 silly mapToRegistry registry http://apimdev1136.hursley.ibm.com:55501/
+202 silly mapToRegistry uri http://apimdev1136.hursley.ibm.com:55501/fs-extra
+203 verbose addRemoteTarball http://apimdev1136.hursley.ibm.com:55501/fs-extra/-/fs-extra-1.0.0.tgz not in flight; adding
+204 verbose addRemoteTarball [ 'http://apimdev1136.hursley.ibm.com:55501/fs-extra/-/fs-extra-1.0.0.tgz',
+204 verbose addRemoteTarball   'cd3ce5f7e7cb6145883fcae3191e9877f8587950' ]
+205 info retry fetch attempt 1 at 12:45:08 PM
+206 info attempt registry request try #1 at 12:45:08 PM
+207 http fetch GET http://apimdev1136.hursley.ibm.com:55501/fs-extra/-/fs-extra-1.0.0.tgz
+208 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 9.20.153.136:55501
+209 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 9.20.153.136:55501
+210 info attempt registry request try #2 at 12:45:19 PM
+211 http fetch GET http://apimdev1136.hursley.ibm.com:55501/js-yaml/-/js-yaml-3.5.3.tgz
+212 info attempt registry request try #2 at 12:45:19 PM
+213 http fetch GET http://apimdev1136.hursley.ibm.com:55501/fs-extra/-/fs-extra-1.0.0.tgz
+214 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 9.20.153.136:55501
+215 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 9.20.153.136:55501
+216 info attempt registry request try #3 at 12:46:20 PM
+217 http fetch GET http://apimdev1136.hursley.ibm.com:55501/js-yaml/-/js-yaml-3.5.3.tgz
+218 info attempt registry request try #3 at 12:46:20 PM
+219 http fetch GET http://apimdev1136.hursley.ibm.com:55501/fs-extra/-/fs-extra-1.0.0.tgz
+220 error fetch failed http://apimdev1136.hursley.ibm.com:55501/js-yaml/-/js-yaml-3.5.3.tgz
+221 warn retry will retry, error on last attempt: Error: connect ECONNREFUSED 9.20.153.136:55501
+222 error fetch failed http://apimdev1136.hursley.ibm.com:55501/fs-extra/-/fs-extra-1.0.0.tgz
+223 warn retry will retry, error on last attempt: Error: connect ECONNREFUSED 9.20.153.136:55501
+224 info retry fetch attempt 2 at 12:46:31 PM
+225 info attempt registry request try #1 at 12:46:31 PM
+226 http fetch GET http://apimdev1136.hursley.ibm.com:55501/js-yaml/-/js-yaml-3.5.3.tgz
+227 info retry fetch attempt 2 at 12:46:31 PM
+228 info attempt registry request try #1 at 12:46:31 PM
+229 http fetch GET http://apimdev1136.hursley.ibm.com:55501/fs-extra/-/fs-extra-1.0.0.tgz
+230 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 9.20.153.136:55501
+231 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 9.20.153.136:55501
+232 info attempt registry request try #2 at 12:46:42 PM
+233 http fetch GET http://apimdev1136.hursley.ibm.com:55501/js-yaml/-/js-yaml-3.5.3.tgz
+234 info attempt registry request try #2 at 12:46:42 PM
+235 http fetch GET http://apimdev1136.hursley.ibm.com:55501/fs-extra/-/fs-extra-1.0.0.tgz
+236 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 9.20.153.136:55501
+237 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 9.20.153.136:55501
+238 info attempt registry request try #3 at 12:47:43 PM
+239 http fetch GET http://apimdev1136.hursley.ibm.com:55501/js-yaml/-/js-yaml-3.5.3.tgz
+240 info attempt registry request try #3 at 12:47:44 PM
+241 http fetch GET http://apimdev1136.hursley.ibm.com:55501/fs-extra/-/fs-extra-1.0.0.tgz
+242 error fetch failed http://apimdev1136.hursley.ibm.com:55501/js-yaml/-/js-yaml-3.5.3.tgz
+243 warn retry will retry, error on last attempt: Error: connect ECONNREFUSED 9.20.153.136:55501
+244 error fetch failed http://apimdev1136.hursley.ibm.com:55501/fs-extra/-/fs-extra-1.0.0.tgz
+245 warn retry will retry, error on last attempt: Error: connect ECONNREFUSED 9.20.153.136:55501
+246 info retry fetch attempt 3 at 12:48:44 PM
+247 info attempt registry request try #1 at 12:48:44 PM
+248 http fetch GET http://apimdev1136.hursley.ibm.com:55501/js-yaml/-/js-yaml-3.5.3.tgz
+249 info retry fetch attempt 3 at 12:48:45 PM
+250 info attempt registry request try #1 at 12:48:45 PM
+251 http fetch GET http://apimdev1136.hursley.ibm.com:55501/fs-extra/-/fs-extra-1.0.0.tgz
+252 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 9.20.153.136:55501
+253 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 9.20.153.136:55501
+254 info attempt registry request try #2 at 12:48:55 PM
+255 http fetch GET http://apimdev1136.hursley.ibm.com:55501/js-yaml/-/js-yaml-3.5.3.tgz
+256 info attempt registry request try #2 at 12:48:56 PM
+257 http fetch GET http://apimdev1136.hursley.ibm.com:55501/fs-extra/-/fs-extra-1.0.0.tgz
+258 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 9.20.153.136:55501
+259 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 9.20.153.136:55501
+260 info attempt registry request try #3 at 12:49:57 PM
+261 http fetch GET http://apimdev1136.hursley.ibm.com:55501/js-yaml/-/js-yaml-3.5.3.tgz
+262 info attempt registry request try #3 at 12:49:57 PM
+263 http fetch GET http://apimdev1136.hursley.ibm.com:55501/fs-extra/-/fs-extra-1.0.0.tgz
+264 error fetch failed http://apimdev1136.hursley.ibm.com:55501/js-yaml/-/js-yaml-3.5.3.tgz
+265 error fetch failed http://apimdev1136.hursley.ibm.com:55501/fs-extra/-/fs-extra-1.0.0.tgz
+266 silly rollbackFailedOptional Starting
+267 silly rollbackFailedOptional Finishing
+268 silly runTopLevelLifecycles Starting
+269 silly runTopLevelLifecycles Finishing
+270 silly install printInstalled
+271 verbose stack Error: connect ECONNREFUSED 9.20.153.136:55501
+271 verbose stack     at Object.exports._errnoException (util.js:870:11)
+271 verbose stack     at exports._exceptionWithHostPort (util.js:893:20)
+271 verbose stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1061:14)
+272 verbose cwd C:\Users\IBM_ADMIN\My Documents\Github\docs-staging\apis\marked-it-cli
+273 error Windows_NT 6.1.7601
+274 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\IBM_ADMIN\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install"
+275 error node v4.4.5
+276 error npm  v3.7.5
+277 error code ECONNREFUSED
+278 error errno ECONNREFUSED
+279 error syscall connect
+280 error Error: connect ECONNREFUSED 9.20.153.136:55501
+280 error     at Object.exports._errnoException (util.js:870:11)
+280 error     at exports._exceptionWithHostPort (util.js:893:20)
+280 error     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1061:14)
+280 error  { [Error: connect ECONNREFUSED 9.20.153.136:55501]
+280 error   code: 'ECONNREFUSED',
+280 error   errno: 'ECONNREFUSED',
+280 error   syscall: 'connect',
+280 error   address: '9.20.153.136',
+280 error   port: 55501,
+280 error   parent: 'marked-it-cli' }
+281 error If you are behind a proxy, please make sure that the
+281 error 'proxy' config is set properly.  See: 'npm help config'
+282 verbose exit [ 1, true ]
